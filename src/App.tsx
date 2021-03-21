@@ -1,10 +1,13 @@
 import React from 'react';
-
+import "./shared/css/Global.css"
+import {Routes} from "./routes/Routes";
+import {DesktopNavigation } from "./components/navigation/desktopNavigation/DesktopNavigation"
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <Routes>
+      <DesktopNavigation/>
+    </Routes>
+
   );
 }
 

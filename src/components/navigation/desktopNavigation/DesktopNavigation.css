@@ -1,0 +1,10 @@
+.desktopNavigationWrapper{
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+.navigationLogotype{
+
+    width: auto;
+}
