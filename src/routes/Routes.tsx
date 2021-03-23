@@ -8,7 +8,7 @@ export const Routes = (props: { children: React.ReactChild }) => {
     const { children } = props
     return (
         <BrowserRouter>
-            
+            {children}
             <Switch>
                 <Route exact path= {RoutingPath.homeView} component = {HomeView} />
                 <Route exact path= {RoutingPath.aboutView} component = {AboutView} />

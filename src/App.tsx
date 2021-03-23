@@ -2,8 +2,9 @@ import React from "react";
 //import {Greeting} from "./components/greeting/Greeting";
 import { Routes } from "./routes/Routes";
 import { UserProvider} from "./shared/provider/UserProvider";
-import {DesktopNavigation} from "./components/navigation/desktopnavigation/DesktopNavigation";
+import {DesktopNavigation} from "./components/navigation/desktopNavigation/DesktopNavigation";
 import "./shared/css/Global.css";
+// eslint-disable-next-line 
 import { JsxEmit } from "typescript";
 
 

@@ -29,7 +29,7 @@ export const  DesktopNavigation = () => {
             <span onClick = {() => history.push(RoutingPath.homeView)}>Brands</span>
             <span onClick = {() => history.push(RoutingPath.homeView)}>News</span>
             <span onClick = {() => history.push(RoutingPath.homeView)}>Guidline</span>
-            <span onClick = {() => history.push(RoutingPath.signInView)}>Sign in</span>
+            
             {displaySignInButtomOrUsernameDepandingOnAuthentication()}
             
         </div>
